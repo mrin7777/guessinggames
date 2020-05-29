@@ -8,7 +8,7 @@ readme.md: guessinggame.sh
 	date >> readme.md
 	echo -n "\n**Number of lines in guessinggame.sh :** " >> readme.md
 	grep -c '' guessinggame.sh >> readme.md
-        echo "**page link**:[go page](https://github.com/mrin7777/guessinggame/).">>readme.md
+        echo "**page link**:[go page](https://github.com/mrin7777/guessinggames/).">>readme.md
 
 clean:
 	rm readme.md
